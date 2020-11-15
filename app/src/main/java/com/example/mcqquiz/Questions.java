@@ -4,34 +4,34 @@ public class Questions {
     public String mQuestions[]={
 
 
-            "which is the 1st planet in our solar system",
-            "which is the 2nd planet in our solar system",
-            "which is the 3rd planet in our solar system",
-            "which is the 4th planet in our solar system",
-            "which is the 5th planet in our solar system",
-            "which is the 6th planet in our solar system",
-            "which is the 7th planet in our solar system",
-            "which is the 8th planet in our solar system",
-            "which is the 9th planet in our solar system",
-            "which planet in our solar system is biggest"
+            "How many days do we have in a week?",
+            "How many days are there in a year?",
+            "How many colors are there in a rainbow",
+            "Which animal is known as the ‘Ship of the Desert?’",
+            "How many letters are there in the English alphabet?",
+            "How many sides are there in a triangle?",
+            "In which direction does the sun rise?",
+            "Which month of the year has the least number of days?",
+            "We smell with our",
+            "What do you call the person who brings a letter to your home from post office?"
 
 
     };
     private String mChoices[][]= {
 
-            {"Mercury","Venus","Earth","Mars"},
-            {"Mercury","Venus","Earth","Mars"},
-            {"Mercury","Venus","Earth","Mars"},
-            {"Mercury","Venus","Earth","Mars"},
-            {"jupiter","saturn","uranus","neptune"},
-            {"jupiter","saturn","uranus","neptune"},
-            {"jupiter","saturn","uranus","neptune"},
-            {"jupiter","saturn","uranus","neptune"},
-            {"pluto","saturn","uranus","neptune"},
-            {"jupiter","saturn","uranus","neptune"}
+            {"five","six","seven","eight"},
+            {"363","364","365","366"},
+            {"five","six","seven","eight"},
+            {"goat","sheep","lion","camel"},
+            {"26","27","28","29"},
+            {"five","six","three","two"},
+            {"east","west","south","north"},
+            {"feb","jan","mar","jun"},
+            {"eyes","mouth","ears","nose"},
+            {"policeman","postman","peon","officer"}
 
             };
-    private String mCorrectAnswers[]={"Mercury","Venus","Earth","Mars","jupiter","saturn","uranus","neptune","pluto","jupiter"};
+    private String mCorrectAnswers[]={"seven","365","seven","camel","26","three","east","feb","nose","postman"};
 
     public String getQuestion(int a){
         String question=mQuestions[a];
