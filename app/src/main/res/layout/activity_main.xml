@@ -45,10 +45,10 @@
     <TextView
         android:id="@+id/score"
         android:layout_width="262dp"
-        android:layout_height="90dp"
         android:gravity="center"
-        android:text="TextView"
         android:textSize="24sp"
+        android:layout_height="90dp"
+        android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
